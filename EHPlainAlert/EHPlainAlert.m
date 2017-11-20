@@ -171,7 +171,7 @@ static NSMutableArray * currentAlertArray = nil;
     self.view.layer.masksToBounds = NO;
     
     UIImageView *arrow = [[UIImageView alloc] initWithImage:[EHPlainAlert imageNamed:@"icNext"]];
-    CGRect frame = CGRectMake(self.view.frame.size.width - 26.f, self.view.frame.size.height / 2, 13.f, 8.f);
+    CGRect frame = CGRectMake(self.view.frame.size.width - 23.f, self.view.frame.size.height / 2, 8.f, 13.f);
     arrow.frame = frame;
     [self.view addSubview:arrow];
     
